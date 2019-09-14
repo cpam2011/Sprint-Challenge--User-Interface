@@ -192,3 +192,13 @@ justify-content:space-between;
 width:800px;
 margin:0 auto;
 }
+.ouline-guide section{
+max-width:380px;
+}
+.outline-guide img{
+max width: 100%;
+}
+
+.outline-guide p{
+margin-bottom:30px;
+}
