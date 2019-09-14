@@ -189,6 +189,9 @@ background:indigo;
 .boxes > .box:nth-of-type(10){
 background:dodgerblue;
 }
+header nav{
+    display:flex-start;
+}
 .outline-guide{
 display:flex;
 flex-wrap:wrap;
@@ -232,4 +235,14 @@ article p{
 article img {
     float: right;
     margin: 10px;
+}
+.bottom-content2{
+    margin-top:40px;
+    padding-top: 40px;
+    border-top: 1px solid #333;
+    display: flex;
+}
+
+footer nav{
+    display:flext-start;
 }
