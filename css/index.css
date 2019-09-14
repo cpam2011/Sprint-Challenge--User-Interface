@@ -186,5 +186,9 @@ background:indigo;
 background:dodgerblue;
 }
 .outline-guide{
-    
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+width:800px;
+margin:0 auto;
 }
