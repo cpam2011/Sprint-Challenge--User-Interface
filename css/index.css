@@ -66,9 +66,35 @@ p {
     line-height: 1.4;
 }
 
-.container {
+/*Nav and Logo*/
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+header .logo {
+    margin-top: 50px;
+    display: block;
+}
+
+header nav {
+    display: flex;
+    margin-top: 75px;
     width: 800px;
-    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -82,7 +108,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,12 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral;
+}
+
+.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +208,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About */
+
+.about-top-content {
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container {
+    margin-bottom: 10px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-middle-content .about-text-content {
+    width: 400px;
+    padding: 2%;
+}
+
+
+.about-text-content button {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+hr {
+    margin: 20px 40px 0 0;
+    width: 360px;
+    border-top: 1px dashed black;
+}
+
+.about-bottom-content {
+    padding: 2%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
